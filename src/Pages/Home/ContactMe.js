@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaLinkedin, FaFacebookSquare, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 const ContactMe = () => {
     return (
@@ -8,6 +10,26 @@ const ContactMe = () => {
                 <p></p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2'>
+                <div class="flex justify-center items-center">
+                    <div class="block p-6 rounded-lg shadow-md shadow-gray-300 bg-gray-900 max-w-sm">
+                        <div className='flex items-center'>
+                            <AiOutlineMail className='text-4xl mr-3 text-gray-300 my-2' />
+                            <h5 class="text-gray-300 text-xl leading-tight font-medium mb-2"> majharul5456@gmail.com</h5>
+                        </div>
+                        <div className='flex items-center'>
+                            <FaPhoneAlt className='text-4xl mr-3 text-gray-300 my-2' />
+                            <h5 class="text-gray-300 text-xl leading-tight font-medium mb-2"> (+880) 18160-66160 </h5>
+                        </div>
+                        <div className='flex items-center'>
+                            <FaWhatsapp className='text-4xl mr-3 text-gray-300 my-2' />
+                            <h5 class="text-gray-300 text-xl leading-tight font-medium mb-2"> (+880) 18160-66160 </h5>
+                        </div>
+                        <div className='flex justify-around'>
+                            <a target='_blank' rel="noreferrer" href="https://www.facebook.com/MajharulTanvir.rgt/" className='text-4xl '><FaFacebookSquare className='text-gray-300 my-2' /></a>
+                            <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/majharul-tanvir-rgt/" className='text-4xl'><FaLinkedin className='text-gray-300 my-2' /></a>
+                        </div>
+                    </div>
+                </div>
                 <div className="block p-6 rounded-lg shadow-lg bg-gray-900 shadow-gray-300 max-w-md">
                     <form>
                         <div className="form-group mb-6">
