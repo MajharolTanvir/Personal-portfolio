@@ -23,6 +23,9 @@ const Navbar = () => {
                         <li className="nav-item p-2">
                             <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#project' for>Projects</a>
                         </li>
+                        <li className="nav-item p-2">
+                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#contact' for>Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="flex items-center justify-center relative">
