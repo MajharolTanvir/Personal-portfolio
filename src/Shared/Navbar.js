@@ -21,7 +21,7 @@ const Navbar = () => {
                             <Link className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to="/">Home</Link>
                         </li>
                         <li className="nav-item p-2">
-                            <Link className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to="/">Projects</Link>
+                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#project' for>Projects</a>
                         </li>
                     </ul>
                 </div>

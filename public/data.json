@@ -1,0 +1,31 @@
+[
+    {
+        "_id": "1",
+        "name": "E Tools Manufacturer",
+        "image": "https://i.ibb.co/L5wWMH3/PROJECT-1.png",
+        "live": "https://e-tools-manufacturer.web.app/",
+        "clientSide": "https://github.com/Tanvir5454/E-tools-menufecturer",
+        "serverSide": "https://github.com/Tanvir5454/E-tools-manufecturer-server",
+        "technology": "React, Tailwind, React router, React query, React hook from, API integration, Node.js, Express.js, MongoDB, etc.",
+        "about": "Implemented authentication using Firebase and JSON web token.Implemented a Payment system.Users can add reviews and see the latest review.We have created an admin panel to manage all orders and all users.\r\n"
+    },
+    {
+        "_id": "2",
+        "name": "Car inventory",
+        "image": "https://i.ibb.co/NngBRfX/PROJECT-3.png",
+        "live": "https://car-inventory-6dae5.web.app/",
+        "clientSide": "https://github.com/Tanvir5454/car-inventory",
+        "serverSide": "https://github.com/Tanvir5454/car-inventory-server-side",
+        "technology": "React, Tailwind, React router, API integration, node.js, express.js, MongoDB, etc.",
+        "about": "Managing stock updates, and delivery.Without login user cannot deliver the product.Implemented authentication using Firebase.\r\n"
+    },
+    {
+        "_id": "3",
+        "name": "Tanvir Anowear",
+        "image": "https://i.ibb.co/VWcQ6Q5/PROJECT-2.png",
+        "live": "https://fuoad-saeed.web.app/",
+        "clientSide": "https://github.com/Tanvir5454/personal-journalist",
+        "technology": "React, Tailwind, Bootstrap, React router, API integration, etc.",
+        "about": "Perches any service.Implemented authentication using Firebase..\r\n"
+    }
+]

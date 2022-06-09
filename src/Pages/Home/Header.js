@@ -2,15 +2,36 @@ import React from 'react';
 import banner from '../../Utilities/pic/DSC_3583.JPG'
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
 import myResume from '../../Utilities/resume/myResume.pdf'
+import TextTransition, { presets } from "react-text-transition";
+
+const TEXTS = [
+    "Jr. Web Developer.",
+    "Frontend Developer.",
+    "MERN Stack Developer."
+];
 
 const Header = () => {
+
+    const [index, setIndex] = React.useState(0);
+
+    React.useEffect(() => {
+        const intervalId = setInterval(() =>
+            setIndex(index => index + 1),
+            3000 // every 3 seconds
+        );
+        return () => clearTimeout(intervalId);
+    }, []);
+
     return (
         <div className='container mx-auto'>
             <div className="py-10 top-0 -z-10 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-gray-900">
                 <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center h-full">
                     <div className="text-left text-gray-300 px-6 md:px-12">
                         <h1 className="text-4xl font-bold mt-0 mb-6">I'm Majharul Tanvir</h1>
-                        <h3 className="text-2xl font-bold mb-8">I am a Jr. Web Developer</h3>
+                        <h3 className="text-2xl font-bold mb-8">Role: <TextTransition
+                            text={TEXTS[index % TEXTS.length]}
+                            springConfig={presets.wobbly}
+                        /></h3>
                         <p>I am trying to focus and build my career as React developer. I have
                             good Knowledge of Javascript, React, etc. Day by day I try and want to grow up my skills</p>
                         <a href={myResume}>
