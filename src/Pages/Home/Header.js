@@ -48,7 +48,7 @@ const Header = () => {
                                     <a href='https://www.linkedin.com/in/majharul-tanvir-rgt/' target='_blank' className='text-3xl p-1 bottom-24 animate-bounce absolute right-12 text-gray-300 my-2' rel='noreferrer'><FaLinkedin /></a>
                                 </div>
                             </div>
-                            <img src={banner} className='w-96 rounded-full border-2 border-gray-300' alt="" />
+                            <img src={banner} className='w-full rounded-full border-2 border-gray-300' alt="" />
                         </div>
                     </div>
                 </div>

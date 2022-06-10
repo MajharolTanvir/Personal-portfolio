@@ -49,11 +49,11 @@ const ContactMe = () => {
                 <div className="block p-6 rounded-lg shadow-lg bg-gray-900 shadow-gray-300 max-w-md">
                     <form ref={form} onSubmit={sendEmail}>
                         <label className='text-gray-300'>Name</label>
-                        <input type="text" name="user_name" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required />
+                        <input type="text" name="user_name" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-gray-900 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-300 focus:border-blue-600 focus:outline-none" required />
                         <label className='text-gray-300'>Email</label>
-                        <input type="email" name="user_email" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" required />
+                        <input type="email" name="user_email" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-gray-900 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-300 focus:border-blue-600 focus:outline-none" required />
                         <label className='text-gray-300'>Message</label>
-                        <textarea name="message" className=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" />
+                        <textarea name="message" className=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-300 bg-gray-900 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-300  focus:border-blue-600 focus:outline-none" />
                         <input type="submit" value="Send" className="w-full px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out mt-5" />
                     </form>
                 </div>
