@@ -1,7 +1,6 @@
 import React from 'react';
 import banner from '../../Utilities/pic/DSC_3583.JPG'
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
-import myResume from '../../Utilities/resume/myResume.pdf'
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
@@ -34,7 +33,7 @@ const Header = () => {
                         /></h3>
                         <p>I am trying to focus and build my career as React developer. I have
                             good Knowledge of Javascript, React, etc. Day by day I try and want to grow up my skills</p>
-                        <a href={myResume}>
+                        <a href='myResume.pdf'>
                             <button type="button" className="inline-block my-5 px-6 py-2.5 border-2 border-gray-300 hover:border-gray-900 text-gray-300 hover:text-gray-900 font-bold text-xs leading-tight uppercase rounded hover:bg-gray-300 focus:outline-none focus:ring-0 transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light"> My resume </button>
                         </a>
                     </div>
