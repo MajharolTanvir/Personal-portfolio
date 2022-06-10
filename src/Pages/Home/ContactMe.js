@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaLinkedin, FaFacebookSquare, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
 import { toast } from 'react-toastify';
+import image from '../../Utilities/about/animation_500_l48va9oi.gif'
 
 const ContactMe = () => {
     const form = useRef();
@@ -27,24 +26,7 @@ const ContactMe = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2  px-3 md:px-0'>
                 <div className="flex justify-center items-center my-10 md:my-0">
-                    <div className="w-full p-6 rounded-lg shadow-md shadow-gray-300 bg-gray-900">
-                        <div className='flex items-center'>
-                            <AiOutlineMail className='text-4xl mr-3 text-gray-300 my-2' />
-                            <h5 className="text-gray-300 text-xl leading-tight font-medium mb-2"> majharul5456@gmail.com</h5>
-                        </div>
-                        <div className='flex items-center'>
-                            <FaPhoneAlt className='text-4xl mr-3 text-gray-300 my-2' />
-                            <h5 className="text-gray-300 text-xl leading-tight font-medium mb-2"> (+880) 18160-66160 </h5>
-                        </div>
-                        <div className='flex items-center'>
-                            <FaWhatsapp className='text-4xl mr-3 text-gray-300 my-2' />
-                            <h5 className="text-gray-300 text-xl leading-tight font-medium mb-2"> (+880) 18160-66160 </h5>
-                        </div>
-                        <div className='flex justify-around'>
-                            <a target='_blank' rel="noreferrer" href="https://www.facebook.com/MajharulTanvir.rgt/" className='text-4xl '><FaFacebookSquare className='text-gray-300 my-2' /></a>
-                            <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/majharul-tanvir-rgt/" className='text-4xl'><FaLinkedin className='text-gray-300 my-2' /></a>
-                        </div>
-                    </div>
+                    <img className='h-80' src={image} alt="" />
                 </div>
                 <div className="block p-6 rounded-lg shadow-md bg-gray-900 shadow-gray-300 max-w-md">
                     <form ref={form} onSubmit={sendEmail}>

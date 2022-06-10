@@ -26,7 +26,7 @@ const ProjectDetails = () => {
                     <div class="flex justify-center">
                         <ul class="bg-gray-900  rounded-lg border border-gray-200 w-96 text-gray-300">
                             <li class="px-6 py-2 border-b border-gray-200 w-full rounded-t-lg">{project.about}</li>
-                            <li class="px-6 py-2 w-full rounded-b-lg">{project.techonology}</li>
+                            <li class="px-6 py-2 w-full rounded-b-lg"><strong>Techonology:</strong> {project.techonology}</li>
                         </ul>
                     </div>
                     <a target='_blank' rel="noreferrer" href={project.live} >
