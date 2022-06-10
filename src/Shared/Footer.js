@@ -15,9 +15,9 @@ const Footer = () => {
                 </p>
                 <div>
                     <div className='flex'>
-                        <a target='_blank' rel="noreferrer" href="https://www.facebook.com/MajharulTanvir.rgt/" className='text-4xl '><FaFacebookSquare className='text-gray-300 my-2' /></a>
-                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/majharul-tanvir-rgt/" className='text-4xl'><FaLinkedin className='text-gray-300 my-2' /></a>
-                        <a target='_blank' rel="noreferrer" href="https://github.com/Tanvir5454" className='text-4xl'><FaGithubSquare className='text-gray-300 my-2' /></a>
+                        <a target='_blank' rel="noreferrer" href="https://www.facebook.com/MajharulTanvir.rgt/" className='text-4xl '><FaFacebookSquare className='text-gray-300 my-2 mr-5' /></a>
+                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/majharul-tanvir-rgt/" className='text-4xl'><FaLinkedin className='text-gray-300 my-2 mr-5' /></a>
+                        <a target='_blank' rel="noreferrer" href="https://github.com/Tanvir5454" className='text-4xl'><FaGithubSquare className='text-gray-300 my-2 mr-5' /></a>
                     </div>
                 </div>
             </div>
