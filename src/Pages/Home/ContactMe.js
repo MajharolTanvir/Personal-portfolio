@@ -20,8 +20,8 @@ const ContactMe = () => {
             });
     };
     return (
-        <div>
-            <div className='mb-20 text-gray-300' id='contact'>
+        <div id='contact'>
+            <div className='mb-20 text-gray-300'>
                 <h4 className='text-3xl font-bold'>Contact me</h4>
                 <p>If you have any questions, please feel free to contact me or you can contact me using other social media.</p>
             </div>

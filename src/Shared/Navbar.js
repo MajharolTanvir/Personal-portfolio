@@ -21,10 +21,16 @@ const Navbar = () => {
                             <Link className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" to="/">Home</Link>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#project' for>Projects</a>
+                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#about'>About</a>
                         </li>
                         <li className="nav-item p-2">
-                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#contact' for>Contact</a>
+                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#skills'>Skills</a>
+                        </li>
+                        <li className="nav-item p-2">
+                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#project'>Projects</a>
+                        </li>
+                        <li className="nav-item p-2">
+                            <a className="nav-link text-gray-300 hover:text-gray-100 focus:text-gray-200 p-0" href='#contact'>Contact</a>
                         </li>
                     </ul>
                 </div>

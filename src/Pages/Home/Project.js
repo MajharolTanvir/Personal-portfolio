@@ -1,7 +1,10 @@
 import React from 'react';
 import { useQuery } from 'react-query';
+import { useNavigate } from 'react-router-dom';
 
 const Project = () => {
+    const navigate = useNavigate()
+
     const { data: projects, isLoading } = useQuery('projects', () => fetch('data.json').then(res => res.json()))
 
     if (isLoading) {
@@ -10,8 +13,12 @@ const Project = () => {
         </div>
     }
 
+    const handleDetails = id => {
+        navigate(`/projectDetails/${id}`)
+    }
+
     return (
-        <div id='project' className='py-20 container mx-auto'>
+        <div id='project' className='py-10 my-10 container mx-auto'>
             <div className='mb-20 text-gray-300'>
                 <h4 className='font-bold text-3xl'>My latest Project</h4>
                 <p>My last 3 projects which I have given below. Feel free to view these.</p>
@@ -35,7 +42,7 @@ const Project = () => {
                                     {project.serverSide && <a target='_blank' rel="noreferrer" href={project.serverSide} >
                                         <button type="button" className="inline-block px-4 py-1.5 bg-gray-300 text-gray-900 font-bold text-xs leading-tight uppercase rounded hover:text-gray-300 hover: border-gray-300 border-2 shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out my-2 w-full">Server side</button>
                                     </a>}
-                                    <button type="button" className="inline-block px-4 py-1.5 bg-gray-300 text-gray-900 font-bold text-xs leading-tight uppercase rounded hover:text-gray-300 hover: border-gray-300 border-2 shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out my-2 w-full">Project details</button>
+                                    <button onClick={() => handleDetails(project._id)} type="button" className="inline-block px-4 py-1.5 bg-gray-300 text-gray-900 font-bold text-xs leading-tight uppercase rounded hover:text-gray-300 hover: border-gray-300 border-2 shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out my-2 w-full">Project details</button>
                                 </div>
                             </div>
                         </div>

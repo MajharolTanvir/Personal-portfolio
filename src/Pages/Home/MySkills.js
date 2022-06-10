@@ -2,8 +2,8 @@ import React from 'react';
 
 const MySkills = () => {
     return (
-        <div className='container mx-auto'>
-            <div className='mb-20 text-gray-300' id='contact'>
+        <div className='container mx-auto mt-20 mb-10' id='skills'>
+            <div className='mb-20 text-gray-300'>
                 <h4 className='text-3xl font-bold'>My skills</h4>
             </div>
             <ol className="border-l md:border-l-0 md:border-t border-gray-300 md:flex md:justify-center md:gap-5">
