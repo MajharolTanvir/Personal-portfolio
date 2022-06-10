@@ -4,6 +4,7 @@ import Header from './Header';
 import Project from './Project';
 import MySkills from './MySkills'
 import About from './About';
+import WorkDetails from './WorkDetails'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Header></Header>
             <About></About>
             <MySkills></MySkills>
+            <WorkDetails></WorkDetails>
             <Project></Project>
             <ContactMe></ContactMe>
         </div>
