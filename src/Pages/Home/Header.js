@@ -1,6 +1,6 @@
 import React from 'react';
 import banner from '../../Utilities/pic/DSC_3583.JPG'
-import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
+// import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
 import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = [
@@ -37,7 +37,7 @@ const Header = () => {
                     </div>
                     <div className='my-10 mx-10 p-10 border-2 relative border-gray-900 rounded-full shadow-lg shadow-gray-400'>
                         <div className='p-10 border-2 border-gray-800 rounded-full'>
-                            <div className='text-center'>
+                            {/* <div className='text-center'>
                                 <div>
                                     <a href='https://www.facebook.com/MajharulTanvir.rgt/' target='_blank' className='absolute animate-bounce text-3xl top-20 right-16 text-gray-300 my-2' rel='noreferrer'><FaFacebookSquare /></a>
                                 </div>
@@ -47,7 +47,7 @@ const Header = () => {
                                 <div>
                                     <a href='https://www.linkedin.com/in/majharul-tanvir-rgt/' target='_blank' className='text-3xl p-1 bottom-24 animate-bounce absolute right-12 text-gray-300 my-2' rel='noreferrer'><FaLinkedin /></a>
                                 </div>
-                            </div>
+                            </div> */}
                             <img src={banner} className='w-full rounded-full border-2 border-gray-300' alt="" />
                         </div>
                     </div>
