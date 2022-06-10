@@ -23,11 +23,11 @@ const ContactMe = () => {
         <div id='contact'>
             <div className='mb-20 text-gray-300'>
                 <h4 className='text-3xl font-bold'>Contact me</h4>
-                <p>If you have any questions, please feel free to contact me or you can contact me using other social media.</p>
+                <p className='px-10'>If you have any questions, please feel free to contact me or you can contact me using other social media.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2'>
-                <div className="flex justify-center items-center">
-                    <div className="block p-6 rounded-lg shadow-md shadow-gray-300 bg-gray-900 max-w-sm">
+            <div className='grid grid-cols-1 md:grid-cols-2  px-2 md:px-0'>
+                <div className="flex justify-center items-center my-10 md:my-0">
+                    <div className="w-full p-6 rounded-lg shadow-md shadow-gray-300 bg-gray-900">
                         <div className='flex items-center'>
                             <AiOutlineMail className='text-4xl mr-3 text-gray-300 my-2' />
                             <h5 className="text-gray-300 text-xl leading-tight font-medium mb-2"> majharul5456@gmail.com</h5>

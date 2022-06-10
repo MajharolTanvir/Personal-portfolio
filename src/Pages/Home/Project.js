@@ -21,9 +21,9 @@ const Project = () => {
         <div id='project' className='py-10 my-10 container mx-auto'>
             <div className='mb-20 text-gray-300'>
                 <h4 className='font-bold text-3xl'>My latest Project</h4>
-                <p>My last 3 projects which I have given below. Feel free to view these.</p>
+                <p className='px-10'>My last 3 projects which I have given below. Feel free to view these.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2 md:px-0'>
                 {
                     projects.map(project => <div key={project._id} className="flex justify-center  shadow-lg rounded-lg shadow-gray-300">
                         <div className="rounded-lg shadow-lg bg-gray-900 text-gray-300 max-w-sm">

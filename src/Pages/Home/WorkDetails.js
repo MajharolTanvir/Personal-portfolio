@@ -5,7 +5,7 @@ import MERN from '../../Utilities/work/mern.jpg'
 
 const WorkDetails = () => {
     return (
-        <div id='service' className="container mx-auto">
+        <div id='service' className="container mx-auto px-2 md:px-0">
             <div className='mb-20 text-gray-300'>
                 <h4 className='font-bold text-3xl'>Service</h4>
                 <p>The jobs that I am experienced and work on About it is given below.</p>

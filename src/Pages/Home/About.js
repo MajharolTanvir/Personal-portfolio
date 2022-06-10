@@ -12,7 +12,7 @@ const About = () => {
                     <img src={image} alt="" />
                 </div>
                 <div className='text-center'>
-                    <p className='text-gray-300 text-justify'>I am trying to focus and build my career as React developer. I have good Knowledge of Html, Css , Css framework ,Javascript, React, react packages and more think. Day by day I try and want to grow up my skills. I want to do a lot of big projects.</p>
+                    <p className='text-gray-300 px-10 text-justify'>I am trying to focus and build my career as React developer. I have good Knowledge of Html, Css , Css framework ,Javascript, React, react packages and more think. Day by day I try and want to grow up my skills. I want to do a lot of big projects.</p>
                 </div>
             </div>
         </div>
