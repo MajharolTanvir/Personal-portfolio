@@ -23,10 +23,10 @@ const Project = () => {
                 <h4 className='font-bold text-3xl'>My latest Project</h4>
                 <p className='px-10'>My last 3 projects which I have given below. Feel free to view these.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2 md:px-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-3 md:px-0'>
                 {
-                    projects.map(project => <div key={project._id} className="flex justify-center  shadow-lg rounded-lg shadow-gray-300">
-                        <div className="rounded-lg shadow-lg bg-gray-900 text-gray-300 max-w-sm">
+                    projects.map(project => <div key={project._id} className="flex justify-center  shadow-md rounded-lg shadow-gray-300">
+                        <div className="rounded-lg bg-gray-900 text-gray-300">
                             <a href="#!">
                                 <img className="rounded-t-lg" src={project.image} alt="" />
                             </a>

@@ -25,7 +25,7 @@ const ContactMe = () => {
                 <h4 className='text-3xl font-bold'>Contact me</h4>
                 <p className='px-10'>If you have any questions, please feel free to contact me or you can contact me using other social media.</p>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2  px-2 md:px-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2  px-3 md:px-0'>
                 <div className="flex justify-center items-center my-10 md:my-0">
                     <div className="w-full p-6 rounded-lg shadow-md shadow-gray-300 bg-gray-900">
                         <div className='flex items-center'>
@@ -46,7 +46,7 @@ const ContactMe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="block p-6 rounded-lg shadow-lg bg-gray-900 shadow-gray-300 max-w-md">
+                <div className="block p-6 rounded-lg shadow-md bg-gray-900 shadow-gray-300 max-w-md">
                     <form ref={form} onSubmit={sendEmail}>
                         <label className='text-gray-300'>Name</label>
                         <input type="text" name="user_name" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-gray-900 bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-300 focus:border-blue-600 focus:outline-none" required />
