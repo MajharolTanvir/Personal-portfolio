@@ -36,7 +36,7 @@ const Header = () => {
                         </a>
                     </div>
                     <div className='my-10 mx-10 p-10 border-2 relative border-gray-900 rounded-full shadow-lg shadow-gray-400'>
-                        <div className='p-8 border-2 border-gray-800 rounded-full'>
+                        <div className='p-10 border-2 border-gray-800 rounded-full'>
                             <div className='text-center'>
                                 <div>
                                     <a href='https://www.facebook.com/MajharulTanvir.rgt/' target='_blank' className='absolute animate-bounce text-3xl top-20 right-16 text-gray-300 my-2' rel='noreferrer'><FaFacebookSquare /></a>
