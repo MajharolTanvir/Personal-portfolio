@@ -7,7 +7,7 @@
         "clientSide": "https://github.com/Tanvir5454/E-tools-menufecturer",
         "serverSide": "https://github.com/Tanvir5454/E-tools-manufecturer-server",
         "technology": "React, Tailwind, React router, React query, React hook from, API integration, Node.js, Express.js, MongoDB, etc.",
-        "about": "Implemented authentication using Firebase and JSON web token.Implemented a Payment system.Users can add reviews and see the latest review.We have created an admin panel to manage all orders and all users.\r\n"
+        "about": "This is a manufacturing website. client will be able to see, know and buy this product through payment. \r\n"
     },
     {
         "_id": "2",
@@ -17,7 +17,7 @@
         "clientSide": "https://github.com/Tanvir5454/car-inventory",
         "serverSide": "https://github.com/Tanvir5454/car-inventory-server-side",
         "technology": "React, Tailwind, React router, API integration, node.js, express.js, MongoDB, etc.",
-        "about": "Managing stock updates, and delivery.Without login user cannot deliver the product.Implemented authentication using Firebase.\r\n"
+        "about": "This is a inventory website.\r\n"
     },
     {
         "_id": "3",
@@ -26,6 +26,6 @@
         "live": "https://fuoad-saeed.web.app/",
         "clientSide": "https://github.com/Tanvir5454/personal-journalist",
         "technology": "React, Tailwind, Bootstrap, React router, API integration, etc.",
-        "about": "Perches any service.Implemented authentication using Firebase..\r\n"
+        "about": "This is a Journalist website.\r\n"
     }
 ]

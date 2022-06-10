@@ -21,9 +21,9 @@ const ContactMe = () => {
     };
     return (
         <div>
-            <div className='mb-20' id='contact'>
-                <h4 className='text-3xl text-gray-300 font-bold'>Contact me</h4>
-                <p></p>
+            <div className='mb-20 text-gray-300' id='contact'>
+                <h4 className='text-3xl font-bold'>Contact me</h4>
+                <p>If you have any questions, please feel free to contact me or you can contact me using other social media.</p>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className="flex justify-center items-center">
