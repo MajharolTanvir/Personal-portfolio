@@ -1,51 +1,43 @@
-import React from 'react';
+import React from "react";
+import { AiFillCaretRight } from "react-icons/ai";
 
 const MySkills = () => {
-    return (
-        <div className='container mx-auto mt-20 mb-10  px-3 md:px-0' id='skills'>
-            <div className='mb-20 text-gray-300'>
-                <h4 className='text-3xl font-bold'>My skills</h4>
-            </div>
-            <ol className="border-l md:border-l-0 md:border-t border-gray-300 md:flex md:justify-center md:gap-5">
-                <li>
-                    <div className="flex md:block flex-start items-center pt-2 md:pt-0">
-                        <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 md:ml-0 mr-3 md:mr-0 md:-mt-1"></div>
-                    </div>
-                    <div className="mt-0.5 ml-4 md:ml-0 pb-5">
-                        <h4 className="text-gray-300 mt-3 font-semibold text-xl mb-1.5 ">Experts</h4>
-                        <p className="text-gray-400 mb-3">Html5, CSS3, Bootstrap, Tailwind, Javascript, Javascript(Es6), React, API integration, Firebase(Authentication).</p>
-                    </div>
-                </li>
-                <li>
-                    <div className="flex md:block flex-start items-center pt-2 md:pt-0">
-                        <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 md:ml-0 mr-3 md:mr-0 md:-mt-1"></div>
-                    </div>
-                    <div className="mt-0.5 ml-4 md:ml-0 pb-5">
-                        <h4 className="text-gray-300 mt-3 font-semibold text-xl mb-1.5 ">Comfortable</h4>
-                        <p className="text-gray-400 mb-3">Node.js, Express.js, MongoDB, React query, React hook from.</p>
-                    </div>
-                </li>
-                <li>
-                    <div className="flex md:block flex-start items-center pt-2 md:pt-0">
-                        <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 md:ml-0 mr-3 md:mr-0 md:-mt-1"></div>
-                    </div>
-                    <div className="mt-0.5 ml-4 md:ml-0 pb-5">
-                        <h4 className="text-gray-300 mt-3 font-semibold text-xl mb-1.5 ">Familiar</h4>
-                        <p className="text-gray-400 mb-3">Typescript, Redux, Axios, Json web Token, React native,  WordPress.</p>
-                    </div>
-                </li>
-                <li>
-                    <div className="flex md:block flex-start items-center pt-2 md:pt-0">
-                        <div className="bg-gray-300 w-2 h-2 rounded-full -ml-1 md:ml-0 mr-3 md:mr-0 md:-mt-1"></div>
-                    </div>
-                    <div className="mt-0.5 ml-4 md:ml-0 pb-5">
-                        <h4 className="text-gray-300 mt-3 font-semibold text-xl mb-1.5 ">Tools</h4>
-                        <p className="text-gray-400 mb-3">Github, Heroku, Netlify, Visual studio code, Chrome dev tools, Postman.</p>
-                    </div>
-                </li>
-            </ol>
+  return (
+    <div className="container mx-auto mt-20 px-3 md:px-0" id="skills">
+      <div className="mb-10 flex justify-center items-center gap-2 text-cyan-300">
+        <h4 className="text-xl md:text-2xl lg:text-3xl font-bold">My skills</h4>
+        <AiFillCaretRight />
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-cyan-300 text-center gap-5 lg:gap-8 mx-5 md:mx-0">
+        <div className="p-5 lg:p-8 border-2 border-cyan-300 rounded-lg">
+          <h6 className="font-bold pb-3">Expert</h6>
+          <p className="text-justify">
+            HTML, CSS, Bootstrap, Tailwind, Javascript, React.js, Typescript,
+            DaisyUI, Firebase.
+          </p>
         </div>
-    );
+        <div className="p-5 lg:p-8 border-2 border-cyan-300 rounded-lg">
+          <h6 className="font-bold pb-3">Comfortable</h6>
+          <p className="text-justify">
+            Node.js, Express.js, MongoDB, Axios, WordPress & Elementor.
+          </p>
+        </div>
+        <div className="p-5 lg:p-8 border-2 border-cyan-300 rounded-lg">
+          <h6 className="font-bold pb-3">Familiar</h6>
+          <p className="text-justify">
+            Redux, Next.Js, React native, React testing library, Stripe.
+          </p>
+        </div>
+        <div className="p-5 lg:p-8 border-2 border-cyan-300 rounded-lg">
+          <h6 className="font-bold pb-3">Tools</h6>
+          <p className="text-justify">
+            GitHub, Netlify, Render, Heroku, Postman, Chrome dev tool, Redux Dev
+            tool etc.{" "}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default MySkills;
