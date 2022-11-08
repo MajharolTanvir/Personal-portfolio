@@ -42,11 +42,11 @@ const ContactMe = () => {
           contact me using other social media.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2  px-3 md:px-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 px-3 md:px-0">
         <div className="flex justify-center items-center my-10 md:my-0">
           <img className="h-80" src={image} alt="" />
         </div>
-        <div className="block p-6 rounded-lg shadow-md bg-gray-900 shadow-gray-300 max-w-md">
+        <div className="block p-6 rounded-lg shadow-md shadow-cyan-300 max-w-md">
           <form ref={form} onSubmit={sendEmail}>
             <label className="text-cyan-300">Name</label>
             <input

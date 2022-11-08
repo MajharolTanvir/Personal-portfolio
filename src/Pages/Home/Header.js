@@ -55,7 +55,7 @@ const Header = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/Tanvir5454"
+                href="https://github.com/Rgt-Tanvir"
                 className="text-3xl md:text-4xl"
               >
                 <FaGithubSquare className="my-2" />
