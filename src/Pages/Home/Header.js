@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div className="container mx-auto">
-      <div className="top-0 -z-10 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-gray-900">
+      <div className="md:pt-5 lg:pt-10 top-0 -z-10 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-gray-900">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center h-full">
           <div className="text-center md:text-left text-cyan-300 px-6 md:px-12">
             <h1 className="text-xl md:text-2xl lg:text-4xl font-bold mt-0 mb-3">
