@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillCaretRight, AiOutlineAntDesign } from "react-icons/ai";
 import {
   FaCss3Alt,
+  FaElementor,
   FaHtml5,
   FaJava,
   FaNode,
@@ -24,6 +25,9 @@ import {
   SiNetlify,
   SiHeroku,
   SiPostman,
+  SiVercel,
+  SiVisualstudiocode,
+  SiChakraui,
 } from "react-icons/si";
 
 const MySkills = () => {
@@ -55,6 +59,7 @@ const MySkills = () => {
             <SiMongodb className="text-4xl mx-auto " />
             <AiOutlineAntDesign className="text-4xl mx-auto " />
             <FaWordpress className="text-4xl mx-auto " />
+            <FaElementor className="text-4xl mx-auto " />
           </div>
         </div>
         <div className="p-5 lg:p-8 border-2 border-cyan-300 rounded-lg">
@@ -65,14 +70,17 @@ const MySkills = () => {
             <TbBrandReactNative className="text-4xl mx-auto " />
             <SiJest className="text-4xl mx-auto " />
             <SiStripe className="text-4xl mx-auto " />
+            <SiChakraui className="text-4xl mx-auto " />
           </div>
         </div>
         <div className="p-5 lg:p-8 border-2 border-cyan-300 rounded-lg">
           <h6 className="font-bold pb-3">Tools</h6>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-evenly items-center gap-5">
             <SiGithub className="text-4xl mx-auto" />
+            <SiVisualstudiocode className="text-4xl mx-auto" />
             <SiNetlify className="text-4xl mx-auto " />
             <SiHeroku className="text-4xl mx-auto " />
+            <SiVercel className="text-4xl mx-auto " />
             <SiPostman className="text-4xl mx-auto " />
           </div>
         </div>
