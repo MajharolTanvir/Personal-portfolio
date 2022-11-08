@@ -14,7 +14,7 @@ const Navbar = () => {
                     </svg>
                 </button>
                 <div className="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-                    <Link className="flex font-bold text-2xl items-center justify-center text-gray-300 hover:text-gray-100 focus:text-gray-200 mt-2 lg:mt-0 mr-1" to="#">Tanvir</Link>
+                    <Link className="flex font-bold text-2xl items-center justify-center text-gray-300 hover:text-gray-100 focus:text-gray-200 mt-2 lg:mt-0 mr-1" to="#">Majharul Tanvir</Link>
                     {/* <!-- Left links --> */}
                     <ul className="navbar-nav flex flex-col pl-0 list-style-none mx-auto">
                         <li className="nav-item p-2">
