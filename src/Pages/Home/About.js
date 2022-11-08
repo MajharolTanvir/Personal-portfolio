@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../Utilities/pic/DSC_3583.JPG";
+import profile from "../../Utilities/pic/DSC_4783.jpg";
 import { AiFillCaretRight } from "react-icons/ai";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
         <div className="my-10 mx-10 p-10 border-2 relative border-gray-900 rounded-full shadow-md shadow-cyan-400">
           <img
-            src={banner}
+            src={profile}
             className="w-full rounded-full border-4 border-cyan-300"
             alt=""
           />

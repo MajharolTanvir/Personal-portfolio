@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import profile from "../Utilities/pic/10708 copy.jpg";
+import profile from "../Utilities/pic/DSC_3583.JPG";
 
 const Navbar = () => {
   return (
