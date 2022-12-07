@@ -39,7 +39,7 @@ const Header = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.facebook.com/MajharulTanvir.rgt/"
+                href="https://www.facebook.com/MajharolTanvir"
                 className="text-3xl md:text-4xl"
               >
                 <FaFacebookSquare className="my-2" />
@@ -47,7 +47,7 @@ const Header = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/majharul-tanvir-rgt/"
+                href="https://www.linkedin.com/in/majharoltanvir/"
                 className="text-3xl md:text-4xl"
               >
                 <FaLinkedin className="my-2" />
@@ -55,7 +55,7 @@ const Header = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/Rgt-Tanvir"
+                href="https://github.com/MajharolTanvir"
                 className="text-3xl md:text-4xl"
               >
                 <FaGithubSquare className="my-2" />
@@ -64,7 +64,7 @@ const Header = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1sFDd5WN2Gua3G714K2PSGngvXG3BPaRn/view?usp=share_link"
+              href="https://drive.google.com/file/d/1sFDd5WN2Gua3G714K2PSGngvXG3BPaRn/view?usp=sharing"
             >
               <button
                 type="button"
@@ -72,8 +72,7 @@ const Header = () => {
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
               >
-                {" "}
-                My resume{" "}
+                My resume
               </button>
             </a>
           </div>
