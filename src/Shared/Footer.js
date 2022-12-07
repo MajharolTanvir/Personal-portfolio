@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-center lg:text-left mt-20">
       <div
-        className="text-gray-300 flex justify-around  items-center p-4 text-cyan-300"
+        className="text-gray-300 flex justify-around  items-center p-4"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
         <p className="m-0 text-center">
@@ -20,7 +20,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.facebook.com/MajharulTanvir.rgt/"
+              href="https://www.facebook.com/MajharolTanvir"
             >
               Made By Myjharul Tanvir🔥
             </a>{" "}
@@ -31,7 +31,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.facebook.com/MajharulTanvir.rgt/"
+              href="https://www.facebook.com/MajharolTanvir"
               className="text-3xl md:text-4xl"
             >
               <FaFacebookSquare className="my-2" />
@@ -39,7 +39,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/majharul-tanvir-rgt/"
+              href="https://www.linkedin.com/in/majharoltanvir/"
               className="text-3xl md:text-4xl"
             >
               <FaLinkedin className="my-2" />
@@ -47,7 +47,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/Rgt-Tanvir"
+              href="https://github.com/MajharolTanvir"
               className="text-3xl md:text-4xl"
             >
               <FaGithubSquare className="my-2" />
