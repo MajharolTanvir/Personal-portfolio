@@ -1,7 +1,7 @@
 import React from "react";
-import Frontend from "../../Utilities/work/frontend.jpg";
-import Backend from "../../Utilities/work/backend.jpg";
-import MERN from "../../Utilities/work/mern.jpg";
+import Frontend from "../../Utilities/work/frontend.png";
+import Backend from "../../Utilities/work/backend.png";
+import Wordpress from "../../Utilities/work/wordpress.png";
 import { AiFillCaretRight } from "react-icons/ai";
 
 const WorkDetails = () => {
@@ -17,18 +17,18 @@ const WorkDetails = () => {
         <div className="rounded-lg bg-gray-900">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-10">
             <div className="block p-6 text-cyan-300 rounded-lg shadow-md bg-gray-900 max-w-sm shadow-cyan-300">
-              <img src={Frontend} alt="" />
-              <h5 className=" mt-3 text-xl leading-tight font-medium mb-2">
+              <img className="h-48 w-full rounded" src={Frontend} alt="" />
+              <h5 className="mt-3 text-xl leading-tight font-semibold mb-2">
                 Frontend developer
               </h5>
               <p>
                 Html, Css, Bootstrap, Tailwind, Javascript, React, TypeScript,
-                DaisyUI, ANT design, Redux.
+                Redux, DaisyUI, ANT design.
               </p>
             </div>
             <div className="block p-6 text-cyan-300 rounded-lg shadow-md bg-gray-900 max-w-sm shadow-cyan-300">
-              <img src={Backend} alt="" />
-              <h5 className="mt-3 text-xl leading-tight font-medium mb-2">
+              <img className="h-48 w-full rounded" src={Backend} alt="" />
+              <h5 className="mt-3 text-xl leading-tight font-semibold mb-2">
                 Backend developer
               </h5>
               <p className="text-cyan-300 text-base mb-4">
@@ -36,8 +36,8 @@ const WorkDetails = () => {
               </p>
             </div>
             <div className="block p-6 rounded-lg text-cyan-300 shadow-md bg-gray-900 max-w-sm shadow-cyan-300">
-              <img src={MERN} alt="" />
-              <h5 className="mt-3 text-xl leading-tight font-medium mb-2">
+              <img className="h-48 w-full rounded" src={Wordpress} alt="" />
+              <h5 className="mt-3 text-xl leading-tight font-semibold mb-2">
                 WordPress developer
               </h5>
               <p className="text-cyan-300 text-base mb-4">

@@ -23,8 +23,8 @@ const ProjectDetails = () => {
   const project = projects.find((project) => id === project._id);
 
   return (
-    <div className="grid grid-cols-2 justify-center items-center container mx-auto mt-7">
-      <div className="rounded-lg shadow-lg shadow-cyan-300 bg-gray-900 max-w-sm mx-auto">
+    <div className="grid grid-cols-1 lg:grid-cols-2 justify-center items-center container mx-auto mt-7">
+      <div className="rounded-lg shadow-lg shadow-cyan-300 bg-gray-900 w-full md:w-96 mx-auto">
         <h4 className="text-gray-300 text-2xl mt-5 font-bold px-6">
           {project.name}
         </h4>
